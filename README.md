@@ -1,4 +1,4 @@
-# PW3-IDSS-2223-T#Group2 IntelligentMovieRecommander
+# IntelligentMovieRecommander ( Intelligent Decision Support System Project)
 Project realized by Niko Picello, Salma Waqif, Lapo Carrieri, Yasmine Souabi, Hanaa Al Zahabi
 
 
