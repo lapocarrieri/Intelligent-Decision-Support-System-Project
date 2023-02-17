@@ -1,0 +1,52 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <div class="welcomeBox">
+        <h1>Looking for a movie tonight ? Movie Recommender will help you for that </h1>
+    </div>
+    <form method="GET" action="recommend">
+    <div class="nameBox" >
+        <input class="nameInput" type="text" name="movie" placeholder="Movie name here" required>
+    </div>
+
+    <dip class="genreBox">
+      <!-- <input type="text" name="genre"> -->
+        <select name="genre">
+          <option>----</option>
+          <option>Romance</option>
+          <option>Horror</option>
+          <option>Action</option>
+          <option>Comedy</option>
+          <option>Thriller</option>
+          <option>Drama</option>
+          <option>Documentary</option>
+          <option>Crime</option>
+          <option>Adventure</option>
+          <option>Science Fiction</option>
+          <option>Animation</option>
+          <option>Music</option>
+          <option>Family</option>
+        </select>
+      <!-- </input> -->
+      </div>
+
+      <div class="yearBox">
+        <input class="yearInput";type="number" name="year" placeholder="A specific year ?" min="1888">
+      </div>
+      <p type="submit">
+        <button class="searchButton">
+            <i class="material-icons">search</i>
+        </button>
+      </p>
+    </form>
+
+
+    </body>
+</html>
