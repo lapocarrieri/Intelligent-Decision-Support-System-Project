@@ -1,4 +1,4 @@
-# IDSS
+# PW3-IDSS-2223-T#Group2 IntelligentMovieRecommander
 Project realized by Niko Picello, Salma Waqif, Lapo Carrieri, Yasmine Souabi, Hanaa Al Zahabi
 
 
